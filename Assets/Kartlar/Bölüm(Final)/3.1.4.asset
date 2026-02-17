@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78a7505cb484d904099fc4ee8349c6f2, type: 3}
+  m_Name: 3.1.4
+  m_EditorClassIdentifier: 
+  soruMetni: "Yoluna devam ederken \u0131\u015F\u0131kl\u0131 bir bar g\xF6rd\xFCn
+    oraya git ve orada Ailenin k\u0131z \xE7ocu\u011Funu g\xF6rd\xFCn"
+  secenekAMetni: "\xDCst\xFCne atla"
+  secenekASonucu: {fileID: 0}
+  secenekASonucMetni: "Seni eve g\xF6t\xFCrd\xFC"
+  secenekAResmi: {fileID: 3738071824863911857, guid: 434a76fb81832fa489e1e6a3d9d6ba45, type: 3}
+  secenekA_CanEtkisi: 0
+  secenekA_AcclikEtkisi: 0
+  secenekBMetni: "\xDCst\xFCne atla"
+  secenekBSonucu: {fileID: 0}
+  secenekBSonucMetni: "Seni eve g\xF6t\xFCrd\xFC"
+  secenekBResmi: {fileID: -3254956263046928870, guid: af6c69a55c5cf0247b445eed51816d72, type: 3}
+  secenekB_CanEtkisi: 0
+  secenekB_AcclikEtkisi: 0
+  olumculMu: 0
+  Background: {fileID: 1286465603081698306, guid: c70e484a53d627c4489f133945b35396, type: 3}

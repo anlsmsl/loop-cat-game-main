@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78a7505cb484d904099fc4ee8349c6f2, type: 3}
+  m_Name: 2.2.2
+  m_EditorClassIdentifier: 
+  soruMetni: Yoluna devam etmen gerek ve bir kanalizasyon fark ettin
+  secenekAMetni: Kanalizasyondan devam et
+  secenekASonucu: {fileID: 11400000, guid: c1d5291e439ed9d43951aebf1e7981d6, type: 2}
+  secenekASonucMetni: 
+  secenekAResmi: {fileID: 3738071824863911857, guid: 434a76fb81832fa489e1e6a3d9d6ba45, type: 3}
+  secenekA_CanEtkisi: 0
+  secenekA_AcclikEtkisi: 0
+  secenekBMetni: Yoldan devam et
+  secenekBSonucu: {fileID: 11400000, guid: 3142bce4f2817924d93194b9bf9db92f, type: 2}
+  secenekBSonucMetni: 
+  secenekBResmi: {fileID: -1035415673213467966, guid: 495e59af5f8f48943b8c6d6caeac7e7b, type: 3}
+  secenekB_CanEtkisi: 0
+  secenekB_AcclikEtkisi: 0
+  olumculMu: 0
+  Background: {fileID: 1337534228664977836, guid: 68e31928bf50ed14697c8eab5a36cbce, type: 3}

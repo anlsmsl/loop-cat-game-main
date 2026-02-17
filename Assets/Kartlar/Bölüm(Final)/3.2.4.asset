@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78a7505cb484d904099fc4ee8349c6f2, type: 3}
+  m_Name: 3.2.4
+  m_EditorClassIdentifier: 
+  soruMetni: "Bir bah\xE7ede kedi g\xF6r\xFCrs\xFCn"
+  secenekAMetni: "Kedinin yan\u0131nda git"
+  secenekASonucu: {fileID: 0}
+  secenekASonucMetni: "Kedi daha \xF6nce oynad\u0131\u011F\u0131n bir kedidir(seni
+    evine kadar g\xF6t\xFCr\xFCr ve ailenle kavu\u015Fursun)"
+  secenekAResmi: {fileID: 3738071824863911857, guid: 434a76fb81832fa489e1e6a3d9d6ba45, type: 3}
+  secenekA_CanEtkisi: 0
+  secenekA_AcclikEtkisi: 0
+  secenekBMetni: "Kediyi bo\u015F ver devam et"
+  secenekBSonucu: {fileID: 11400000, guid: 5e67105dd24abdd47ab7a32c06e2cfe2, type: 2}
+  secenekBSonucMetni: 
+  secenekBResmi: {fileID: 4613640584336049277, guid: 9ac87ac20e0b93f4db0eeaac3eac93d7, type: 3}
+  secenekB_CanEtkisi: 0
+  secenekB_AcclikEtkisi: 0
+  olumculMu: 0
+  Background: {fileID: 1286465603081698306, guid: c70e484a53d627c4489f133945b35396, type: 3}

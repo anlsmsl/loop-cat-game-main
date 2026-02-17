@@ -1,0 +1,145 @@
+﻿ana_menu_oyna;OYNA;PLAY
+Ana_menu_gelistirici;GELİŞTİRİCİLER;DEVELOPERS
+ana_menu_cikis;ÇIKIŞ;EXIT
+ana_menu_ayarlar;AYARLAR;SETTINGS
+ana_menu_dil;TÜRKÇE;ENGLISH
+ana_menu_dilayarlari;DİL;LANGUAGE
+;Önüne kurtlar çıkıyor;There are wolfs staring at you
+;Ağaca tırman;Climb a tree
+;Çalılara koş;Run into the bushes
+;Kurtlar ağaca tırmanamıyorlar, inmeni bekliyorlar.;Wolves can't climb trees, they're waiting for you to come down.
+;Gitmelerini bekle;wait for them go
+;Diğer ağaçlara zıplayarak kaç;escape by jumping other trees
+;Kurtlar gitti aşağı inmen gerekiyor(yüksek ağaç);Wolfs are gone, you need to down
+;Yavaşça inmeye çalış;Take it slow
+;Bir anda hızlıca inmeye çalış;Fast as you can
+;Az ileride bir yol Fark ettin;There is a path
+;Ana yoldan git;Take it main road
+;Patikayı takip etmeye çalış;Try to follow the path
+;Bir sanayi kapısı gördün;You saw an industrial gate
+;Kapıdan gir;Enter through the door
+;Dışarda ki palterlerden gizlice gir;Try to jump over the objects outside
+;Koca bir sanayinin arka çıkış kapısını gördün;You saw the back exit door of a huge factory
+;Çıkış kapısından girmeye çalış;Try to enter through the exit door
+;Karanlık bir giriş gördün(gir);You saw a dark entrance
+;Kurtlar senden hızlı koşuyor;Wolves run faster than you
+;Yolda bir çalılığın içine saklan;Hide in a bush along the road
+;Yol üzerine bir çöp yığınının içine saklan;Hide inside a pile of trash on the road
+;Kurtlar gitti ileride bir ışık görüyorsun;The wolves are gone, you see a light ahead
+;Yavaş yavaş dikkat çekmeden ilerle;Move forward slowly and quietly
+;Ailene erkenden ulaşmak için hızlı ilerle;Hurry so you can get to your family early
+;Öldün(Kartal seni fark edip yedi);You died (The eagle spotted you and ate you)
+;Sanayi bölümüne geçilir;Proceed to the industrial episode
+;Bekçi köpeğinin dolandığı ana denk geldin(yedi seni);You ran into the guard dog's territory (it bit you)
+;Kurtlar yemek aramak için geldiklerinde seni yediler;When the wolves came looking for food, they ate you.
+;Sanayide bir köşede gözlerin açılır;Your eyes open in a corner of the industrial area.
+;Ana yola çık;Get onto the main road.
+;Ara sokaklardan ilerle;Proceed through the side streets.
+;Yolun ilerisinde bir kedi gördün;You saw a cat further down the road.
+;Yanına git;Go to him
+;Kendi yolunda ilerlemeye devam et;Keep going your own way.
+;Kedi bi anda sana saldırmaya başladı;The cat suddenly started attacking you.
+;Miyavlanarak kedi mi yenmeyi düşündün?(öldün);Did you think you could eat a cat by meowing? (You died)
+;Miyavla;Meow
+;Saldır;Attack
+;Kediyi zor olsada yendin (-1 Açlık / -1 Sağlık);You beat the cat, albeit with difficulty (-1 Hunger / -1 Health)
+;Yaralandın ve acıkmaya başladın. Etrafına bakınıyorsun.;You're injured and starting to get hungry. You're looking around.
+;Yemek buldun karnını doyurdun;You found food and satisfied your hunger.
+;Bir çöplükten yemek ara;Search for food in a garbage dump.
+;Bir kedi kulübesi fark ettin(Yemek ara);You noticed a cat shelter (Take a break for food)
+;Kedinin kulübesinde yavru kediler fark ettin. Bir anne kedi katilisin;You noticed kittens in the cat's kennel. You're a mother cat killer.
+;Bir kedi için mantıksız bir girişimdi neyse ki atladığın noktada ayı kapanı varmış öldün.;It was a foolish attempt for a cat, but luckily there was a bear trap where you jumped, so you died.
+;Yüksek bir yerden atla ve ölmeye çalış;Jump from a high place and try to die.
+;Yoluna devam et;Keep going
+;Yoluna devam ederken mahalleye çıkan bir patika gördün;As you continued on your way, you saw a path leading to the neighborhood.
+;Ana yol bulmaya çalış;Try to find the main road.
+;Patikadan devam et;Continue along the path
+;Mahallenin sokağına güvenle vardın;You arrived safely at the neighborhood street.
+;Ana yolda köpekler geznirken onlara denk geldin;You came across them while the dogs were roaming on the main road.
+;Köpeği nasıl yencen öldün;How are you going to beat the dog? You're dead.
+;Köpeklerle savaş;Fighting with dogs
+;Kaç;Run
+;"Kaçarken yaralandın ama köpekleri bir şekil atlatıp mahalleye vardın
+ (-1 Sağlık)";You were injured while running away, but you somehow managed to get past the dogs and reach the neighborhood. (-1 Health)
+;Bir platform fark ettin ayrıca acıkıyorsun;You noticed a platform and you're also getting hungry.
+;Restoranın orda köpek gördün dikkat et;You saw a dog near the restaurant, be careful.
+;Üstüne çık keşif yap;Climb on top and explore.
+;Kendi yolundan devam et;Continue on your own path.
+;Acıktın;You are hungry
+;Bir çöplükten yemek ara;Search for food in a garbage dump.
+;Yemek buldun karnını doyurdun;You found food and satisfied your hunger.
+;Yol üzerinde denk geldiğin restarının önünde yemeka ra;You eat in front of a restaurant you come across on the road.
+;Köpekler seni yedi(Onlarda yemek arıyordu);The dogs ate you (They were looking for food).
+;Yoluna devam etmen gerek ve bir kanalizasyon fark ettin;You need to keep going and you notice a sewer.
+;Kanalizasyondan devam et;Continue through the sewer.
+;Yoldan devam et;Continue on the road
+;Kanalizasyondan devam ederken bir fareye denk gedlin;While continuing down the sewer, you came across a rat.
+;Savaş;Attack
+;Savaşırken bi anda yüzlerce fare üstüne geldi(Öldün);While fighting, suddenly hundreds of rats attacked you (You died).
+;Koşarak kaç;Run away
+;Mahallenin kanalizasyonuna güvenle vardn;You safely reached the neighborhood sewer.
+;Mahallenin kanalizasyon kanalındasın;You're in the neighborhood sewer.
+;Kanalizasyon üzerinden devam et;Continue through the sewer.
+;Fare sürüsüne denk geldin ve savaşamadan öldün;You encountered a swarm of rats and died before you could fight.
+;Mahalleye çık;Go out to the neighborhood
+;Mahallenin bir ara sokağına çıktın;You went out into a side street in the neighborhood.
+;Etrafı tanımaya çalışmak için yüksek bir yere çık;Climb to a high place to try and get a feel for your surroundings.
+;Yüksek bir yere çıktın ve dikkatini çeken hiçbir şey yok;You climbed to a high place and there was nothing that caught your attention.
+;İleride bir ışık dikkatini çektin;You noticed a light in the distance.
+;Rögar kapağından çıktığın gibi gözüne bir fare kestirdin;As soon as you emerged from the manhole cover, you spotted a rat.
+;Fareyi yakalamaya çalış;Try to catch the rat.
+;Kolayca fareyi yakalayıp yedin(Karnını doyurdun);You easily caught and ate the rat (you satisfied your hunger).
+;Fareyi boş ver ve yoluna devam et;Ignore the rat and move on.
+;Yoluna devam ederken yavaş yavaş gözün kararmaya başlar ve ölürsün;As you continue on your way, your vision gradually begins to blur, and you die.
+;Kedi seni gördü ve kaçmaya başladı;The cat saw you and started to run away.
+;Hemen peşine takıl;Follow him immediately
+;Sen de kendi yoluna devam et;You go your own way too.
+;Peşine takıldın ve ileride seni yavrularıyla beklediğini gördün;You followed her and saw her waiting for you with her puppies in the distance.
+;Aileni boş ver ve kedilerle yaşmaya başla;Forget about your family and start living with cats.
+;Oyun burada biter artık yeni bir hayat başlamışsındır;"The game ends here; you've started a new life."
+;onları boş verip ailene git;Forget about them and go to your family.
+;Ana sokağa çıakrsın;You'll go out onto the main street.
+;Yoluna devam ederken ışıklı bir bar gördün oraya git ve orada Ailenin kız çocuğunu gördün;"As you continued on your way, you saw a bar with lights; go there and you saw the family's daughter there."
+;Üstüne atla;Jump on it
+;Seni eve götürdü;He took you home
+;Aşağı inerken hırçın bir kedi ile karşılaştın;You encountered a fierce cat on your way down.
+;Kediyle Kavga et;Fight with the cat
+;Kediyi Kolayca yendin(yoluna devam et);You easily defeated the cat (keep going)
+;Kaçarken seni ham yaptı;He got you pregnant while you were running away.
+;ışık kaynağına yakınlaştığında bir kedi dikkatini çekti;As he approached the light source, a cat caught his attention.
+;Kediyi kontrol et;Check the cat.
+;Işığa doğru git;Go towards the light.
+;Yaklaşırken havai fişekler patladı ve onlara kitlendin ve o sıra yol üzerinden geçen bir araba sana çarptı, öldün.;As you approached, fireworks exploded, you became fixated on them, and then a car passing by hit you, killing you.
+;Aşağı indiğinde bir evin bahçesine çıktın;When you went down, you came out into the garden of a house.
+;Bahçeden sokağa çık;Go out from the garden onto the street.
+;Bahçelerden geçmeye çalış;Try to get through the gardens
+;Sokağa çıkınca aç olduğunu fark ettin;You realized you were hungry when you went outside.
+;Çöpü karıştır;Rummage through the trash.
+;Bir evin önünce kedi maası kokusu aldın ona git;You smelled cat food in front of a house, go to it.
+;Karnını doyurdun kimse de karışmadı;You ate your fill and nobody interfered.
+;Bir bahçede kedi görürsün;You see a cat in a garden.
+;Kedinin yanında git;Go with the cat
+;Kedi daha önce oynadığın bir kedidir(seni evine kadar götürür ve ailenle kavuşursun);The cat is one you've played with before (it takes you home and you reunite with your family).
+;Kediyi boş ver devam et;Forget the cat, keep going.
+;Bahçelerden devam ederken bir köpekle denk gelirsin;As you continue through the gardens, you come across a dog.
+;Saldır;Attack
+;Köpek seni kolaylıkla yener(Ölürsün);The dog will easily defeat you (You Died).
+;Köpeklerden kaçarsın;You run away from dogs.
+;Yoluna devam ederken bir ışık tanıdık geldi;As you continued on his way, a familiar light appeared.
+;Işığın evin olduğunu fark edersin;You realize the light is your home.
+;Tam tersine devam et;On the contrary, keep going.
+;terse devam ederken bi köpekle karşılarsın;As you continue in the opposite direction, you encounter a dog.
+;Işığın evin olduğunu fark edersin;You realize the light is your home.
+;Ön kapıdan girmeye çalış;Try to enter through the front door.
+;Eve varınca miyavlarsın ve bütün ailen gelir ve sana sarılırlar(mutlu son);When you get home, you meow and your whole family comes and hugs you (happy ending).
+;Kedi kapısından girmeye çalış;Try to get in through the cat door.
+;Kedi kapısından girerken tellere takılrısın ve kanamaya başlarsın. Evin önüne geldiğinde ailenden gelir, yere yığılıp orada ölürsün.;You get caught on the wires while entering through the cat gate and start bleeding. When you reach the front of the house, your family arrives, you collapse to the ground, and you die there.
+;Kaç;Run
+;"
+";
+gelistiriciler_menu_gelistirici;GELİŞTİRİCİLER;DEVELOPERS
+gelistiriciler_menu_2D;2D ÇİZİM;2D ART
+gelistiriciler_menu_gameD;OYUN TASARIMI;GAME DESIGN
+altyazi_1;;Where the fuck am i?
+altyazi_2;;Wheres is my slaves?(Family)
+altyazi_3;;I have find them

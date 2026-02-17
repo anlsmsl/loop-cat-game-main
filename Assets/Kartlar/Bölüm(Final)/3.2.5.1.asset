@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78a7505cb484d904099fc4ee8349c6f2, type: 3}
+  m_Name: 3.2.5.1
+  m_EditorClassIdentifier: 
+  soruMetni: "I\u015F\u0131\u011F\u0131n evin oldu\u011Funu fark edersin"
+  secenekAMetni: "\xD6n kap\u0131dan girmeye \xE7al\u0131\u015F"
+  secenekASonucu: {fileID: 0}
+  secenekASonucMetni: "Eve var\u0131nca miyavlars\u0131n ve b\xFCt\xFCn ailen gelir
+    ve sana sar\u0131l\u0131rlar(mutlu son)"
+  secenekAResmi: {fileID: -3254956263046928870, guid: af6c69a55c5cf0247b445eed51816d72, type: 3}
+  secenekA_CanEtkisi: 0
+  secenekA_AcclikEtkisi: 0
+  secenekBMetni: "Kedi kap\u0131s\u0131ndan girmeye \xE7al\u0131\u015F"
+  secenekBSonucu: {fileID: 0}
+  secenekBSonucMetni: "Kedi kap\u0131s\u0131ndan girerken tellere tak\u0131lr\u0131s\u0131n
+    ve kanamaya ba\u015Flars\u0131n. Evin \xF6n\xFCne geldi\u011Finde ailenden gelir,
+    yere y\u0131\u011F\u0131l\u0131p orada \xF6l\xFCrs\xFCn."
+  secenekBResmi: {fileID: -1688431707379574793, guid: b36f58fcc3bf6cd4cb00a4e36207fbdb, type: 3}
+  secenekB_CanEtkisi: 0
+  secenekB_AcclikEtkisi: 0
+  olumculMu: 0
+  Background: {fileID: 1286465603081698306, guid: c70e484a53d627c4489f133945b35396, type: 3}

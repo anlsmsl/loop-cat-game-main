@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78a7505cb484d904099fc4ee8349c6f2, type: 3}
+  m_Name: 3.1.3
+  m_EditorClassIdentifier: 
+  soruMetni: "Pe\u015Fine tak\u0131ld\u0131n ve ileride seni yavrular\u0131yla bekledi\u011Fini
+    g\xF6rd\xFCn"
+  secenekAMetni: "Aileni bo\u015F ver ve kedilerle ya\u015Fmaya ba\u015Fla"
+  secenekASonucu: {fileID: 0}
+  secenekASonucMetni: "Oyun burada biter art\u0131k yeni bir hayat ba\u015Flam\u0131\u015Fs\u0131nd\u0131r"
+  secenekAResmi: {fileID: -6712853016712842372, guid: c9bc44795450e4444ac24525ee8f0b29, type: 3}
+  secenekA_CanEtkisi: 0
+  secenekA_AcclikEtkisi: 0
+  secenekBMetni: "onlar\u0131 bo\u015F verip ailene git"
+  secenekBSonucu: {fileID: 11400000, guid: b1709010fd5e2d946b276f2d24913b47, type: 2}
+  secenekBSonucMetni: "Ana soka\u011Fa \xE7\u0131akrs\u0131n"
+  secenekBResmi: {fileID: -4659419435084869936, guid: ba0b42069f79ac64684c4b9a82be458c, type: 3}
+  secenekB_CanEtkisi: 0
+  secenekB_AcclikEtkisi: 0
+  olumculMu: 0
+  Background: {fileID: 1286465603081698306, guid: c70e484a53d627c4489f133945b35396, type: 3}

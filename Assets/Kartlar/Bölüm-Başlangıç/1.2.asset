@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78a7505cb484d904099fc4ee8349c6f2, type: 3}
+  m_Name: 1.2
+  m_EditorClassIdentifier: 
+  soruMetni: "Kurtlar senden h\u0131zl\u0131 ko\u015Fuyor\n"
+  secenekAMetni: "Yolda bir \xE7al\u0131l\u0131\u011F\u0131n i\xE7ine saklan"
+  secenekASonucu: {fileID: 11400000, guid: 6b2f499ee59fe70499a25aadc012527e, type: 2}
+  secenekASonucMetni: 
+  secenekAResmi: {fileID: -4164718369668607007, guid: aedc30bc6ebf8bf43b7ed5e70fc36fcb, type: 3}
+  secenekA_CanEtkisi: 0
+  secenekA_AcclikEtkisi: 0
+  secenekBMetni: "Yol \xFCzerine bir \xE7\xF6p y\u0131\u011F\u0131n\u0131n\u0131n
+    i\xE7ine saklan"
+  secenekBSonucu: {fileID: 0}
+  secenekBSonucMetni: "Kurtlar yemek aramak i\xE7in geldiklerinde seni yediler"
+  secenekBResmi: {fileID: 353271502081839912, guid: 43e439689e6105646b1e58f3f02367fc, type: 3}
+  secenekB_CanEtkisi: 0
+  secenekB_AcclikEtkisi: 0
+  olumculMu: 0
+  Background: {fileID: -59127096382758151, guid: b26c8c7b3a0faee4a877dd208c456cc3, type: 3}

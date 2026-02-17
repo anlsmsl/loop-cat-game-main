@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78a7505cb484d904099fc4ee8349c6f2, type: 3}
+  m_Name: 1.1.4
+  m_EditorClassIdentifier: 
+  soruMetni: "Koca bir sanayinin arka \xE7\u0131k\u0131\u015F kap\u0131s\u0131n\u0131
+    g\xF6rd\xFCn"
+  secenekAMetni: "\xC7\u0131k\u0131\u015F kap\u0131s\u0131ndan girmeye \xE7al\u0131\u015F"
+  secenekASonucu: {fileID: 11400000, guid: 3ec78b6cfad46dd4b91fbc89fb120e8a, type: 2}
+  secenekASonucMetni: "Sanayi b\xF6l\xFCm\xFCne ge\xE7ilir"
+  secenekAResmi: {fileID: -3254956263046928870, guid: af6c69a55c5cf0247b445eed51816d72, type: 3}
+  secenekA_CanEtkisi: 0
+  secenekA_AcclikEtkisi: 0
+  secenekBMetni: "Karanl\u0131k bir giri\u015F g\xF6rd\xFCn(gir)"
+  secenekBSonucu: {fileID: 0}
+  secenekBSonucMetni: "Bek\xE7i k\xF6pe\u011Finin doland\u0131\u011F\u0131 ana denk
+    geldin(yedi seni)"
+  secenekBResmi: {fileID: 353271502081839912, guid: 43e439689e6105646b1e58f3f02367fc, type: 3}
+  secenekB_CanEtkisi: 0
+  secenekB_AcclikEtkisi: 0
+  olumculMu: 0
+  Background: {fileID: -59127096382758151, guid: b26c8c7b3a0faee4a877dd208c456cc3, type: 3}

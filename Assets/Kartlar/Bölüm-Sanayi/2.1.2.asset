@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78a7505cb484d904099fc4ee8349c6f2, type: 3}
+  m_Name: 2.1.2
+  m_EditorClassIdentifier: 
+  soruMetni: "Yaraland\u0131n ve ac\u0131kmaya ba\u015Flad\u0131n. Etraf\u0131na
+    bak\u0131n\u0131yorsun."
+  secenekAMetni: "Bir \xE7\xF6pl\xFCkten yemek ara"
+  secenekASonucu: {fileID: 11400000, guid: 3142bce4f2817924d93194b9bf9db92f, type: 2}
+  secenekASonucMetni: "Yemek buldun karn\u0131n\u0131 doyurdun"
+  secenekAResmi: {fileID: 8331247514130816974, guid: bf0e774d7608af3449144627d4eaeadc, type: 3}
+  secenekA_CanEtkisi: 0
+  secenekA_AcclikEtkisi: 1
+  secenekBMetni: "Bir kedi kul\xFCbesi fark ettin(Yemek ara)"
+  secenekBSonucu: {fileID: 11400000, guid: 9e9057eb428bfab4aa12f782c1dcb43f, type: 2}
+  secenekBSonucMetni: 
+  secenekBResmi: {fileID: -1688431707379574793, guid: b36f58fcc3bf6cd4cb00a4e36207fbdb, type: 3}
+  secenekB_CanEtkisi: 0
+  secenekB_AcclikEtkisi: 0
+  olumculMu: 0
+  Background: {fileID: 1337534228664977836, guid: 68e31928bf50ed14697c8eab5a36cbce, type: 3}

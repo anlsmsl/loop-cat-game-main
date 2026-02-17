@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78a7505cb484d904099fc4ee8349c6f2, type: 3}
+  m_Name: PermaDeath
+  m_EditorClassIdentifier: 
+  soruMetni: "Nefes al\u0131\u015F eri\u015Fin yava\u015Flad\u0131, sahibinin ormandan
+    \xE7\u0131k\u0131p gelmesini hayal ederken narin bedenin yava\u015F\xE7a yere
+    y\u0131\u011F\u0131ld\u0131."
+  secenekAMetni: "Yeniden Do\u011F"
+  secenekASonucu: {fileID: 0}
+  secenekASonucMetni: 
+  secenekAResmi: {fileID: 0}
+  secenekA_CanEtkisi: 0
+  secenekA_AcclikEtkisi: 0
+  secenekBMetni: "Yeniden Do\u011F"
+  secenekBSonucu: {fileID: 0}
+  secenekBSonucMetni: 
+  secenekBResmi: {fileID: 0}
+  secenekB_CanEtkisi: 0
+  secenekB_AcclikEtkisi: 0
+  olumculMu: 0
+  Background: {fileID: -59127096382758151, guid: b26c8c7b3a0faee4a877dd208c456cc3, type: 3}

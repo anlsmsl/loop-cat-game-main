@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78a7505cb484d904099fc4ee8349c6f2, type: 3}
+  m_Name: 3.2.2
+  m_EditorClassIdentifier: 
+  soruMetni: "A\u015Fa\u011F\u0131 indi\u011Finde bir evin bah\xE7esine \xE7\u0131kt\u0131n"
+  secenekAMetni: "Bah\xE7eden soka\u011Fa \xE7\u0131k"
+  secenekASonucu: {fileID: 11400000, guid: b1709010fd5e2d946b276f2d24913b47, type: 2}
+  secenekASonucMetni: 
+  secenekAResmi: {fileID: -4659419435084869936, guid: ba0b42069f79ac64684c4b9a82be458c, type: 3}
+  secenekA_CanEtkisi: 0
+  secenekA_AcclikEtkisi: 0
+  secenekBMetni: "Bah\xE7elerden ge\xE7meye \xE7al\u0131\u015F"
+  secenekBSonucu: {fileID: 11400000, guid: 264bac72d4e86d44993d5449a4a5ab50, type: 2}
+  secenekBSonucMetni: 
+  secenekBResmi: {fileID: 4613640584336049277, guid: 9ac87ac20e0b93f4db0eeaac3eac93d7, type: 3}
+  secenekB_CanEtkisi: 0
+  secenekB_AcclikEtkisi: 0
+  olumculMu: 0
+  Background: {fileID: 1286465603081698306, guid: c70e484a53d627c4489f133945b35396, type: 3}

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78a7505cb484d904099fc4ee8349c6f2, type: 3}
+  m_Name: 3.2.3
+  m_EditorClassIdentifier: 
+  soruMetni: "Soka\u011Fa \xE7\u0131k\u0131nca a\xE7 oldu\u011Funu fark ettin"
+  secenekAMetni: "\xC7\xF6p\xFC kar\u0131\u015Ft\u0131r"
+  secenekASonucu: {fileID: 11400000, guid: a97829b500ac52f49976d26d78b14704, type: 2}
+  secenekASonucMetni: 
+  secenekAResmi: {fileID: 8331247514130816974, guid: bf0e774d7608af3449144627d4eaeadc, type: 3}
+  secenekA_CanEtkisi: 0
+  secenekA_AcclikEtkisi: 0
+  secenekBMetni: "Bir evin \xF6n\xFCnce kedi maas\u0131 kokusu ald\u0131n ona git"
+  secenekBSonucu: {fileID: 11400000, guid: a97829b500ac52f49976d26d78b14704, type: 2}
+  secenekBSonucMetni: "Karn\u0131n\u0131 doyurdun kimse de kar\u0131\u015Fmad\u0131"
+  secenekBResmi: {fileID: -1688431707379574793, guid: b36f58fcc3bf6cd4cb00a4e36207fbdb, type: 3}
+  secenekB_CanEtkisi: 0
+  secenekB_AcclikEtkisi: 1
+  olumculMu: 0
+  Background: {fileID: 1286465603081698306, guid: c70e484a53d627c4489f133945b35396, type: 3}

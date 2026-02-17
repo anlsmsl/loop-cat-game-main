@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78a7505cb484d904099fc4ee8349c6f2, type: 3}
+  m_Name: 3.2.5
+  m_EditorClassIdentifier: 
+  soruMetni: "Yoluna devam ederken bir \u0131\u015F\u0131k tan\u0131d\u0131k geldi"
+  secenekAMetni: "Tan\u0131d\u0131k \u0131\u015F\u0131\u011Fa do\u011Fru devam et"
+  secenekASonucu: {fileID: 11400000, guid: e42cdf89f2a67a44db70c6f3387967ab, type: 2}
+  secenekASonucMetni: "I\u015F\u0131\u011F\u0131n evin oldu\u011Funu fark edersin"
+  secenekAResmi: {fileID: -1688431707379574793, guid: b36f58fcc3bf6cd4cb00a4e36207fbdb, type: 3}
+  secenekA_CanEtkisi: 0
+  secenekA_AcclikEtkisi: 0
+  secenekBMetni: Tam tersine devam et
+  secenekBSonucu: {fileID: 11400000, guid: 5e67105dd24abdd47ab7a32c06e2cfe2, type: 2}
+  secenekBSonucMetni: "terse devam ederken bi k\xF6pekle kar\u015F\u0131lars\u0131n"
+  secenekBResmi: {fileID: 353271502081839912, guid: 43e439689e6105646b1e58f3f02367fc, type: 3}
+  secenekB_CanEtkisi: 0
+  secenekB_AcclikEtkisi: 0
+  olumculMu: 0
+  Background: {fileID: 1286465603081698306, guid: c70e484a53d627c4489f133945b35396, type: 3}

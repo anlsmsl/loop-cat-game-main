@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78a7505cb484d904099fc4ee8349c6f2, type: 3}
+  m_Name: 2.1.4
+  m_EditorClassIdentifier: 
+  soruMetni: "Yoluna devam ederken mahalleye \xE7\u0131kan bir patika g\xF6rd\xFCn"
+  secenekAMetni: "Ana yol bulmaya \xE7al\u0131\u015F"
+  secenekASonucu: {fileID: 11400000, guid: 93f8f07503baafc47984c566cec79a69, type: 2}
+  secenekASonucMetni: 
+  secenekAResmi: {fileID: -1035415673213467966, guid: 495e59af5f8f48943b8c6d6caeac7e7b, type: 3}
+  secenekA_CanEtkisi: 0
+  secenekA_AcclikEtkisi: 0
+  secenekBMetni: Patikadan devam et
+  secenekBSonucu: {fileID: 11400000, guid: 65c6a0044f28b854fb4b2be524252a91, type: 2}
+  secenekBSonucMetni: "Mahallenin soka\u011F\u0131na g\xFCvenle vard\u0131n"
+  secenekBResmi: {fileID: 138160459333553205, guid: 8998fb00e8fd2d247b137a6101287aa5, type: 3}
+  secenekB_CanEtkisi: 0
+  secenekB_AcclikEtkisi: 0
+  olumculMu: 0
+  Background: {fileID: 1337534228664977836, guid: 68e31928bf50ed14697c8eab5a36cbce, type: 3}

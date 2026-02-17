@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78a7505cb484d904099fc4ee8349c6f2, type: 3}
+  m_Name: 2.2.3
+  m_EditorClassIdentifier: 
+  soruMetni: Kanalizasyondan devam ederken bir fareye denk gedlin
+  secenekAMetni: "Sava\u015F"
+  secenekASonucu: {fileID: 0}
+  secenekASonucMetni: "Sava\u015F\u0131rken bi anda y\xFCzlerce fare \xFCst\xFCne
+    geldi(\xD6ld\xFCn)"
+  secenekAResmi: {fileID: 353271502081839912, guid: 43e439689e6105646b1e58f3f02367fc, type: 3}
+  secenekA_CanEtkisi: 0
+  secenekA_AcclikEtkisi: 0
+  secenekBMetni: "Ko\u015Farak ka\xE7"
+  secenekBSonucu: {fileID: 11400000, guid: cc51edfadf0a91046982e2ce0a8de3f4, type: 2}
+  secenekBSonucMetni: "Mahallenin kanalizasyonuna g\xFCvenle vardn"
+  secenekBResmi: {fileID: 4285695496039379445, guid: 911d7bceae2c12f49aad5880e7d44e71, type: 3}
+  secenekB_CanEtkisi: 0
+  secenekB_AcclikEtkisi: 0
+  olumculMu: 0
+  Background: {fileID: 1337534228664977836, guid: 68e31928bf50ed14697c8eab5a36cbce, type: 3}

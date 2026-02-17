@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78a7505cb484d904099fc4ee8349c6f2, type: 3}
+  m_Name: 2.2
+  m_EditorClassIdentifier: 
+  soruMetni: "Bir platform fark ettin ayr\u0131ca ac\u0131k\u0131yorsun"
+  secenekAMetni: "\xDCst\xFCne \xE7\u0131k ke\u015Fif yap"
+  secenekASonucu: {fileID: 11400000, guid: fe2ebbf83f064984d8c0300cc9cc08ad, type: 2}
+  secenekASonucMetni: "Restoran\u0131n orda k\xF6pek g\xF6rd\xFCn dikkat et"
+  secenekAResmi: {fileID: -5094813575175661110, guid: 0018746337960a3459aa37915ae5f061, type: 3}
+  secenekA_CanEtkisi: 0
+  secenekA_AcclikEtkisi: -1
+  secenekBMetni: Kendi yolundan devam et
+  secenekBSonucu: {fileID: 11400000, guid: fe2ebbf83f064984d8c0300cc9cc08ad, type: 2}
+  secenekBSonucMetni: 
+  secenekBResmi: {fileID: -1688431707379574793, guid: b36f58fcc3bf6cd4cb00a4e36207fbdb, type: 3}
+  secenekB_CanEtkisi: 0
+  secenekB_AcclikEtkisi: -1
+  olumculMu: 0
+  Background: {fileID: 1337534228664977836, guid: 68e31928bf50ed14697c8eab5a36cbce, type: 3}
