@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement; // En üste ekle
 
 public class LocalizationManager : MonoBehaviour
 {
@@ -96,5 +97,35 @@ public class LocalizationManager : MonoBehaviour
     {
         if (localizedText == null || !localizedText.ContainsKey(key)) return "HATA: " + key;
         return localizedText[key];
+    }
+    
+    void OnEnable()
+    {
+        // Sahne her değiştiğinde bu fonksiyon çalışır
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+
+    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        // Sahne değişince tüm metinleri bir kez daha zorla güncelle
+        UpdateAllTexts();
+    }
+
+    public void UpdateAllTexts()
+    {
+        LocalizedText[] allTexts = Resources.FindObjectsOfTypeAll<LocalizedText>();
+        foreach(LocalizedText t in allTexts) 
+        {
+            // Sadece aktif olan ve sahnede bulunan metinleri güncelle
+            if (t.gameObject.scene.name != null) 
+            {
+                t.UpdateText();
+            }
+        }
     }
 }

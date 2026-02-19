@@ -84,4 +84,13 @@ sesKaynagı.PlayOneShot(klikSesi);
         Debug.Log("Oyundan çıkılıyor..."); // Editörde çalıştığını anlamak için
         Application.Quit(); // Derlenmiş oyunda çalışır
     }
+    void Start()
+    {
+        // Sahne açıldığında Manager'a "Metinleri bir yenile kanka" diyoruz
+        if(LocalizationManager.Instance != null)
+        {
+            LocalizationManager.Instance.UpdateAllTexts();
+        }
+    }
+    
 }

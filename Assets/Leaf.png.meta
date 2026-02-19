@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 17dc77bd1a029474195cb1c745397934
+guid: 9cecf229b2f0ee241bcd0656990d63d4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3636535234791583902
-    second: UI_TravelBook_IconCross01a_0
+      213: 7647240639167449756
+    second: Leaf_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,43 +96,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: UI_TravelBook_IconCross01a_0
+      name: Leaf_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 14
-        height: 14
+        x: 496
+        y: 91
+        width: 408
+        height: 517
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e90b1f26781977230800000000000000
-      internalID: 3636535234791583902
+      spriteID: c9ac18138d4702a60800000000000000
+      internalID: 7647240639167449756
       vertices: []
       indices: 
       edges: []
@@ -161,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      UI_TravelBook_IconCross01a_0: 3636535234791583902
+      Leaf_0: 7647240639167449756
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

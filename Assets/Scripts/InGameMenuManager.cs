@@ -42,24 +42,6 @@ public class InGameManager : MonoBehaviour
         Time.timeScale = 1f; 
         oyunDurdu = false;
     }
-
-    // --- DİL BUTONLARI ---
-    // Türkçe butonuna bunu bağla
-    public void DilSecTR()
-    {
-        if (sesKaynagı && klikSesi) sesKaynagı.PlayOneShot(klikSesi);
-        LocalizationManager.Instance.ChangeLanguage("TR");
-        Debug.Log("Oyun içi dil TR yapıldı.");
-    }
-
-    // English butonuna bunu bağla
-    public void DilSecEN()
-    {
-        if (sesKaynagı && klikSesi) sesKaynagı.PlayOneShot(klikSesi);
-        LocalizationManager.Instance.ChangeLanguage("EN");
-        Debug.Log("Oyun içi dil EN yapıldı.");
-    }
-
     public void AnaMenuyeDon()
     {
         Time.timeScale = 1f;

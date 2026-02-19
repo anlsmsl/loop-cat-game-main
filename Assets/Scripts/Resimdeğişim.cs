@@ -14,6 +14,7 @@ public class Resimdeğişim : MonoBehaviour
     public GameObject altyaziPaneli; // Altyazının arkasındaki siyah bant
     public TMP_Text altyaziMetni; 
     public string[] altyaziKeyleri; 
+    private Coroutine daktiloRoutine;
 
     void Start()
     {
@@ -39,26 +40,28 @@ public class Resimdeğişim : MonoBehaviour
 
     void AltyaziKontrol()
     {
-        // 1. ADIM: Dil İngilizce mi ve son 3 resimde miyiz?
         if (LocalizationManager.Instance.currentLanguage == "EN" && resimsayacı >= 10 && resimsayacı <= 12)
         {
-            if (altyaziPaneli != null) altyaziPaneli.SetActive(true); // Altyazı bandını aç
-            
+            if (altyaziPaneli != null) altyaziPaneli.SetActive(true);
+        
             int altyaziIndex = resimsayacı - 10; 
             if (altyaziIndex < altyaziKeyleri.Length)
             {
-                // Excel'deki İngilizce karşılığını yazdır
                 string anahtar = altyaziKeyleri[altyaziIndex];
-                altyaziMetni.text = LocalizationManager.Instance.GetValue(anahtar);
+                string cevrilmisMetin = LocalizationManager.Instance.GetValue(anahtar);
+
+                // Eğer eski daktilo varsa durdur, yenisini başlat
+                if (daktiloRoutine != null) StopCoroutine(daktiloRoutine);
+                daktiloRoutine = StartCoroutine(DaktiloYaz(cevrilmisMetin));
             }
         }
         else
         {
-            // Dil Türkçeyse veya son 3 resimde değilsek altyazıyı kapat
+            if (daktiloRoutine != null) StopCoroutine(daktiloRoutine);
             if (altyaziPaneli != null) altyaziPaneli.SetActive(false);
+            if (altyaziMetni != null) altyaziMetni.text = "";
         }
     }
-
     IEnumerator SahneGecisSureci()
     {
         if (SceneFader.instance != null)
@@ -67,5 +70,14 @@ public class Resimdeğişim : MonoBehaviour
             yield return new WaitForSeconds(2f);
 
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+    IEnumerator DaktiloYaz(string metin)
+    {
+        altyaziMetni.text = ""; // Temizle
+        foreach (char harf in metin)
+        {
+            altyaziMetni.text += harf;
+            yield return new WaitForSeconds(0.05f); // Yazı hızı
+        }
     }
 }
