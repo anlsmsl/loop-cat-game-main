@@ -169,7 +169,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad629c125f828f144af345fe27568d08, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 2
+  fadeSpeed: 1
   image: {fileID: 444057084}
 --- !u!114 &444057084
 MonoBehaviour:

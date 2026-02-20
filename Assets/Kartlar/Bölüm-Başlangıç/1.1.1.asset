@@ -19,11 +19,13 @@ MonoBehaviour:
   secenekAResmi: {fileID: -8172040297308566662, guid: ab87f9bc3cb07734799898ca151c00db, type: 3}
   secenekA_CanEtkisi: 0
   secenekA_AcclikEtkisi: 0
+  "SecenekA\xD6zelResim": {fileID: -9125087648364395341, guid: bf31182f03fcafc48a9b4ebd81166b05, type: 3}
   secenekBMetni: "Bir anda h\u0131zl\u0131ca inmeye \xE7al\u0131\u015F"
   secenekBSonucu: {fileID: 11400000, guid: fe747f86d28883d41b18757af3d8823d, type: 2}
   secenekBSonucMetni: 
   secenekBResmi: {fileID: 3703562686956834513, guid: 042695ef8ef0ac94c981f2899ed6f04e, type: 3}
   secenekB_CanEtkisi: 0
   secenekB_AcclikEtkisi: 0
+  "SecenekB\xD6zelResim": {fileID: 0}
   olumculMu: 0
   Background: {fileID: -59127096382758151, guid: b26c8c7b3a0faee4a877dd208c456cc3, type: 3}

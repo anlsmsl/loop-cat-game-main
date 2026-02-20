@@ -9,6 +9,7 @@ public class SceneFader : MonoBehaviour
     public float fadeSpeed = 2.0f;
 
     private static bool isFirstLoad = true;
+    private bool isFirstLoadForScene = true;
     private void Awake()
     {
         instance = this;
@@ -22,6 +23,8 @@ public class SceneFader : MonoBehaviour
 
     public IEnumerator Fader(float duration)
     {
+        image.raycastTarget = true;
+
         float t = 0;
         Color c = image.color;
         while (t < fadeSpeed)
@@ -37,7 +40,16 @@ public class SceneFader : MonoBehaviour
 
     public IEnumerator FadeOut()
     {
-        float t = 0;
+        if (isFirstLoadForScene)
+        {
+            image.raycastTarget = true;
+            isFirstLoadForScene = false;
+        }
+        else
+            image.raycastTarget = false;
+
+
+                float t = 0;
         Color c = image.color;
         while (t < fadeSpeed)
         {
@@ -46,11 +58,14 @@ public class SceneFader : MonoBehaviour
             image.color = c;
             yield return null;
         }
+        image.raycastTarget = false;
     }
 
 
     private void Start()
     {
+
+        isFirstLoadForScene = true;
         if (isFirstLoad)
         {
             // Hemen þeffaf yap ve efekt uygulama

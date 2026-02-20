@@ -19,6 +19,7 @@ MonoBehaviour:
   secenekAResmi: {fileID: -4164718369668607007, guid: aedc30bc6ebf8bf43b7ed5e70fc36fcb, type: 3}
   secenekA_CanEtkisi: 0
   secenekA_AcclikEtkisi: 0
+  "SecenekA\xD6zelResim": {fileID: 0}
   secenekBMetni: "Yol \xFCzerine bir \xE7\xF6p y\u0131\u011F\u0131n\u0131n\u0131n
     i\xE7ine saklan"
   secenekBSonucu: {fileID: 0}
@@ -26,5 +27,6 @@ MonoBehaviour:
   secenekBResmi: {fileID: 353271502081839912, guid: 43e439689e6105646b1e58f3f02367fc, type: 3}
   secenekB_CanEtkisi: 0
   secenekB_AcclikEtkisi: 0
+  "SecenekB\xD6zelResim": {fileID: -9125087648364395341, guid: bf31182f03fcafc48a9b4ebd81166b05, type: 3}
   olumculMu: 0
   Background: {fileID: -59127096382758151, guid: b26c8c7b3a0faee4a877dd208c456cc3, type: 3}

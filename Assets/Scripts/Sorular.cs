@@ -12,6 +12,8 @@ public class Sorular : ScriptableObject
     public Sprite secenekAResmi;
     public int secenekA_CanEtkisi;
     public int secenekA_AcclikEtkisi;
+    public Sprite SecenekAÖzelResim;
+
 
     public string secenekBMetni;
     public Sorular secenekBSonucu;
@@ -19,8 +21,12 @@ public class Sorular : ScriptableObject
     public Sprite secenekBResmi;
     public int secenekB_CanEtkisi;
     public int secenekB_AcclikEtkisi;
+    public Sprite SecenekBÖzelResim;
+
 
     public bool olumculMu;
+
+
 
     public Sprite Background;
 
