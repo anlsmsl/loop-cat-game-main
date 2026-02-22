@@ -16,6 +16,9 @@ public class Resimdeğişim : MonoBehaviour
     public string[] altyaziKeyleri; 
     private Coroutine daktiloRoutine;
 
+    public AudioSource fonMuzigi; // Kısılacak olan ses kaynağı
+    public float azalisMiktari = 0.12f; // Her tıklamada ne kadar azalacağı (1 / 8 ≈ 0.12)
+
     void Start()
     {
         // Başlangıçta paneli kapat
@@ -25,7 +28,13 @@ public class Resimdeğişim : MonoBehaviour
     public void ResimDegiş()
     {
         resimsayacı++;
-        
+
+        if (fonMuzigi != null && fonMuzigi.volume > 0)
+        {
+            // Sesi her basışta azaltır, 0'ın altına düşmesini engeller
+            fonMuzigi.volume = Mathf.Max(0, fonMuzigi.volume - azalisMiktari);
+        }
+
         if (resimsayacı < kediler.Length)
         {
             değişecekimage.sprite = kediler[resimsayacı];
