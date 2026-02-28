@@ -18,6 +18,8 @@ public class GameManager : MonoBehaviour
 
     public GameObject özelResimPaneli;
 
+    public TextMeshProUGUI Yukardakiyazý;
+
 
 
     public PlayerStats playerStats;
@@ -74,7 +76,20 @@ public class GameManager : MonoBehaviour
         ButtonBImage.sprite = mevcutSoru.secenekBResmi;
         butonBText.text = mevcutSoru.secenekBMetni;
         Background.sprite = mevcutSoru.Background;
-        
+
+        switch (Background.sprite.name)
+        {
+            case "Orman_0":
+                Yukardakiyazý.text = "ORMAN";
+                break;
+            case "Sanayi_0":
+                Yukardakiyazý.text = "SANAYÝ";
+                break;
+            case "ssokak_0":
+                Yukardakiyazý.text = "MAHALLE";
+                break;
+        }
+
 ;
         
     }
